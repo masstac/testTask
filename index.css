@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.wrapper {
+  padding: 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1170px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__wrapper {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .header__wrapper {
+    padding: 0 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header__wrapper {
+    padding: 0 32px;
+  }
+}
+@media (max-width: 767px) {
+  .header__wrapper {
+    padding: 0 16px;
+  }
+}
+
+.wrapper__left {
+  width: 104px;
+  height: 26px;
+}
+
+.wrapper__right {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+}
+.wrapper__right button {
+  width: 100px;
+  height: 34px;
+  background: #F4E041;
+  border-radius: 80px;
+}
+.wrapper__right button span {
+  width: 55px;
+  height: 26px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.section1__wrapper {
+  height: 650px;
+  background-image: url("./img/section1/bgc1170.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.section1__wrapper__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+  max-width: 380px;
+}
+@media (min-width: 768px) {
+  .section1__wrapper__info {
+    height: 323px;
+  }
+}
+@media (max-width: 767px) {
+  .section1__wrapper__info {
+    height: 389px;
+  }
+}
+
+.section1__wrapper__info__header {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.section1__wrapper__info__text {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section1__wrapper__button__wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 34px;
+}
+
+.section1__wrapper__button {
+  background: #F4E041;
+  border-radius: 80px;
+}
+
+.section1__wrapper__button__text {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/*# sourceMappingURL=index.css.map */
